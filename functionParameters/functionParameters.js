@@ -5,7 +5,7 @@ let f = function (a, b) {
     console.log("no match");
   }
 };
-
+// arguments give us all arguments in the function
 f(1);
 f(2, 3);
 f(1, 2, 3);
