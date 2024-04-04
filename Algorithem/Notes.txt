@@ -61,3 +61,26 @@ Search - O(n)
 Object.keys() - O(n)
 Object.values() - O(n)
 Object.entries() - O(n)
+
+
+//////////////////////////////////////////// Set //////////////////////
+1- An set is a data structure that can hold a collection of values. The values however must be unique.
+2- Set can contain a mix of different data types. you can store string, booleans, numbers ot even Objects all in the same array
+3- sets are dynamically sized. you don't have to declare the size of the set before creating it.
+4- Sets do not maintain an insertion order.
+5- sets are iterables. They can be used with a for of loop.
+
+/////////////////////////methods in set////////////////////////////
+
+1- set.add()
+2- set.has()
+3- set.delete()
+4- set.size
+5- set.clear()
+
+Sets and Arrays
+
+1- Arrays can contain duplicate values whereas Sets cannot.
+2- Insertion order is maintained in arrays but it is not the case with sets.
+3- Searching and deleting an element in the set is faster compared to arrays.
+
