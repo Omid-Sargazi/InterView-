@@ -1,0 +1,46 @@
+A data structure is a way to store and organize data so that it can be used efficiently.
+A data structure is a collection of data value, the relationships among them, and the functions or operations that can be applied to that data.
+DOM- Tree data structure
+Browser back and forward - Stack data structure
+OS job scheduling - Queue data structure
+
+Built in data structure
+1- Arrays
+2- Objects
+3- Sets 
+4- Maps
+
+Custom data structure
+1- Stacks
+2- Queues
+3- Circular Queues
+4- Linked lists
+4- Hash table
+5- Trees
+6- Graphs
+//////////////////////////////////////////// Arrays//////////////////////
+An array is a data structure that can hold a collection of values.
+Arrays can contain a mix of different data types. you can store string, booleans, numbers ot even Objects all in the same array
+
+Array are resizable. you don't have to declare the size of an array before creating.
+Arrays are iterables. they can be used with a for of loop.
+Array.push(Item) Add Item to end of Array.
+Array.unshift(Item) Add Item to start of Array.
+arr.pop(); // remove item from the end of the array.
+arr.shift() // remove item from the beginning of the array.
+
+
+for(const i of Array){
+    console.log(i) // show items in Array
+}
+
+
+there are methods like map, filter, reduce, concat, alice and splice, 
+Array - Big-O time  complexity 
+insert/remove from end - O(1)
+Insert remove from beginning - O(n)
+Access - O(1)
+Search - O(n)
+push/pop - O(1)
+shift/ unshift/ concat/ slice and splice - O(n)
+forEach / map / filter / reduce - O(n)

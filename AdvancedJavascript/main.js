@@ -1,10 +1,23 @@
-let a = 10;
-function outer() {
-  let b = 20;
+// let a = 10;
+// function outer() {
+//   let b = 20;
+//   function inner() {
+//     let c = 30;
+//     console.log(a, b, c);
+//   }
+//   inner();
+// }
+// outer();
+
+// Closures
+function outerClosure() {
+  let counter = 0;
   function inner() {
-    let c = 30;
-    console.log(a, b, c);
+    counter++;
+    console.log(counter);
   }
-  inner();
+  return inner;
 }
-outer();
+const fn = outerClosure();
+fn();
+fn();
