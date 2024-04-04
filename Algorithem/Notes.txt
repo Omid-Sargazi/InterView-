@@ -44,3 +44,20 @@ Search - O(n)
 push/pop - O(1)
 shift/ unshift/ concat/ slice and splice - O(n)
 forEach / map / filter / reduce - O(n)
+
+//////////////////////////////////////////// Objects //////////////////////
+
+1- An objects is an unordered collection of key-value pairs. The key must either be a string or symbol data type where as the value can be of any data type.
+
+2- to retrieve a value you can use the corresponding key. this can be achieve using the dot notation or bracket notation.
+
+3- Object is not an iterables, You can not use it with a for of loop.
+
+Object - Big-O time complexity 
+insert - O(1)
+Remove - O(1)
+Access - O(1)
+Search - O(n)
+Object.keys() - O(n)
+Object.values() - O(n)
+Object.entries() - O(n)
