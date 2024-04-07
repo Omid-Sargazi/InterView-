@@ -84,3 +84,8 @@ Sets and Arrays
 2- Insertion order is maintained in arrays but it is not the case with sets.
 3- Searching and deleting an element in the set is faster compared to arrays.
 
+how to determine "this"?
+Implicit binding
+explicit binding
+new binding
+default binding

@@ -1,2 +1,11 @@
 Currying is a process in functional programming in which we transform a function with multiple arguments into a sequence of nesting functions that take one argument at a time.
 function f(a, b, c) is transformed to f(a)(b)(c)
+
+////////////////this in javascript////////////
+
+the javascript this keyword which is used in a function, refers to the object it belongs to.
+it makes function reusable by letting you decide the object value.
+this value is determined entirely by how a function is called.
+
+////////////////////This///////////////////////
+typeof this /// Object
