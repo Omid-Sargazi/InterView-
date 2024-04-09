@@ -1,0 +1,25 @@
+Currying is a process in functional programming in which we transform a function with multiple arguments into a sequence of nesting functions that take one argument at a time.
+function f(a, b, c) is transformed to f(a)(b)(c)
+
+////////////////this in javascript////////////
+
+the javascript this keyword which is used in a function, refers to the object it belongs to.
+it makes function reusable by letting you decide the object value.
+this value is determined entirely by how a function is called.
+
+////////////////////This///////////////////////
+typeof this /// Object
+
+////////////////////Map//////////////////
+1- a map is an unordered collection of key-value pairs. Both keys and values can be of any data type.
+2- To retrieve== recover a value, you can use the corresponding key. 
+3- Maps are iterable. they can be used with a for of loop. 
+4- Objects are unordered whereas maps are order.
+5- keys in object can be only be string or symbol type whereas in maps, they can be of any type. 
+6- An object has a prototype and may contain a few default keys which may collide with your own keys id you'r not careful.A 7- map on the other hand dose not contain any keys by default.
+8- the number of items in an object must be determined manually where as it is readily available with the size property in a map. 
+
+9- method set for adding a item into map.
+10- method delete for deleting of a item
+11- method clear for clearing a map.
+12- method size for sizing of a map.
