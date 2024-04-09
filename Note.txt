@@ -23,3 +23,29 @@ typeof this /// Object
 10- method delete for deleting of a item
 11- method clear for clearing a map.
 12- method size for sizing of a map.
+///////////////////////////////////////////////////////Stack////////////////////////////////////////////
+
+Stack
+the stack data structure is a sequential collection of elements that follows the principle of Last in First out.
+A stack of plates. 
+Stack is an abstract data type. It is defined by its behavior rather than being a mathematical model.
+push into tap and remove from the top.
+Browser history tracking. 
+undo operation when typing.
+/////////////////////////////Queue//////////////////////////////
+
+Queue
+1- the queue data structure is a sequential collection of elements that follows the principle of First in First out(FIFO)
+2- the first element inserted into the queue is first element to be removed. 
+3- Queue is a abstract data structure.
+4- Enqueue add element into a queue
+5- dequeue remove a element from the queue.
+6- peek()==> get the value of the element at the front of the queue without removing it.
+7- is Empty ==> check if the queue is empty. 
+8- size() => get the number of e;elements in the queue.
+9- print()==> visualize the elements in the queue
+10- Queue Usage
+    Printers.
+    CPU task scheduling.
+    Callback queue in javascript runtime.
+
