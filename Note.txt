@@ -1,3 +1,35 @@
+////////////////////////////////////////////////////Algorithm in javascript//////////////////////////////////
+the worse case complexity of an Algorithm is represented using the Big-O notation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Currying is a process in functional programming in which we transform a function with multiple arguments into a sequence of nesting functions that take one argument at a time.
 function f(a, b, c) is transformed to f(a)(b)(c)
 
