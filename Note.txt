@@ -49,3 +49,9 @@ Queue
     CPU task scheduling.
     Callback queue in javascript runtime.
 
+/////////////////////////Circular Queue///////////////////////////
+the size of the queue is fixed and a single block of memory is used as if the first element is connected to the last element.
+Circular queue usage
+1- Clock
+2- streaming data
+3- Traffic lights
