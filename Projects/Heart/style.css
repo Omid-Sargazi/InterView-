@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+span {
+  background: url("./pic/Heart2.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-size: cover;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  animation: animate 6s linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(-50%, -50000%);
+    opacity: 0;
+  }
+}
