@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 900px;
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+header .icon-cart {
+  position: relative;
+}
+header .icon-cart span {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background: red;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  right: -90%;
+}
