@@ -28,6 +28,19 @@ class LinkedList {
     }
     this.size++;
   }
+  print() {
+    if (this.isEmpty()) {
+      console.log("List is empty");
+    } else {
+      let list = [];
+      let indent = this.head;
+      for (let i = 0; i < this.size; i++) {
+        list[i] = indent.value;
+        indent = indent.next;
+      }
+      console.log(list);
+    }
+  }
 }
 
 const list = new LinkedList();
@@ -38,3 +51,4 @@ list.prepend(10);
 list.prepend(20);
 list.prepend(30);
 list.prepend(140);
+list.print();
