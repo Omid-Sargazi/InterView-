@@ -89,3 +89,7 @@ Implicit binding
 explicit binding
 new binding
 default binding
+
+
+////////////Factorial///////////////////
+given an integer "n" find the Factorial of that integer
