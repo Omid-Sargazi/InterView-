@@ -16,5 +16,18 @@ function primeNumber(n) {
     console.log(`${n} is not a prime.`);
   }
 }
-primeNumber(20);
-primeNumber(191);
+// primeNumber(20);
+// primeNumber(191);
+
+function isPrime(n) {
+  if (n < 2) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+console.log(isPrime(11));
