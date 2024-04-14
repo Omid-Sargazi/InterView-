@@ -12,4 +12,6 @@ function factorial(n) {
   }
   return f;
 }
+console.log(factorial(-1));
+console.log(factorial(1));
 console.log(factorial(50));
