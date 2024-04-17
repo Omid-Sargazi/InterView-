@@ -17,4 +17,20 @@ function GreatestNumberDivisors(array) {
   }
   console.log(p, max);
 }
-GreatestNumberDivisors(nums);
+// GreatestNumberDivisors(nums);
+
+function basis2(num) {
+  let basis = [];
+
+  while (num >= 1) {
+    console.log(num);
+    basis.push(num % 2);
+    num = ~~(num / 2);
+  }
+  console.log(basis);
+}
+
+basis2(40);
+// let a = [];
+// a.push(1);
+console.log(~~(15 / 2));
