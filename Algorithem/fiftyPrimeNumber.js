@@ -38,4 +38,22 @@ function fiboLess1000() {
     console.log(c);
   }
 }
-fiboLess1000();
+// fiboLess1000();
+
+function Fibonacci() {
+  let a = 3;
+  let b = 1;
+  let count = 0;
+  let c = 0;
+  while (count <= 5) {
+    c = a + b;
+    a = b;
+    b = c;
+    if (Prime(c)) {
+      count++;
+    }
+  }
+  console.log(c);
+}
+
+Fibonacci();
