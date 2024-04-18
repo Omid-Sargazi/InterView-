@@ -9,7 +9,7 @@ function Prime(num) {
   return 1;
 }
 
-console.log(Prime(5), "Prime");
+// console.log(Prime(5), "Prime");
 
 function fiftyPrimeNumber() {
   let count = 0;
@@ -23,4 +23,19 @@ function fiftyPrimeNumber() {
   }
   console.log(i + 3);
 }
-fiftyPrimeNumber();
+// fiftyPrimeNumber();
+
+//////////////////////////////////////////////////////////Fibonacci less than 1000///////////////////////////
+// 1,1,2,3,5,8,13,21,....
+function fiboLess1000() {
+  let a = 1;
+  let b = 1;
+  let c = 0;
+  while (a + b < 1000) {
+    c = a + b;
+    a = b;
+    b = c;
+    console.log(c);
+  }
+}
+fiboLess1000();
