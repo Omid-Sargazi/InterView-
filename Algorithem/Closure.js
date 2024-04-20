@@ -13,7 +13,14 @@ const parentFunction = () => {
     console.log((myValue += 5));
   };
 
-  childFunction();
+  return childFunction;
 };
 
-parentFunction();
+const result = parentFunction();
+
+console.log(result);
+
+result();
+result(); // increment value after executing parent function
+console.log(x, "x");
+console.log(myValue, "myValue"); // reference error, private variables
