@@ -48,3 +48,31 @@ console.log(
   UseWithApply.hobbies.apply(VahidSargazi, ["PS5", "football", "body"])
 );
 console.log(UseWithApply.name.apply(David), "Apply");
+/////////////////////////////////////////////////Bind method/////////////////////////
+console.log("Bind method");
+const counter = {
+  hit() {
+    this.count++;
+  },
+};
+
+const jumps = {
+  count: 0,
+};
+
+const walk = {
+  count: 0,
+};
+
+const hitJumps = counter.hit.bind(jumps);
+
+const hitWalk = counter.hit.bind(walk);
+
+hitJumps();
+hitJumps();
+hitJumps();
+hitWalk();
+hitWalk();
+hitWalk();
+console.log(jumps.count, "jumpCount");
+console.log(walk.count, "WalkCount");
