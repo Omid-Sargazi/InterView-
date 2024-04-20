@@ -23,4 +23,20 @@ console.log(result);
 result();
 result(); // increment value after executing parent function
 console.log(x, "x");
-console.log(myValue, "myValue"); // reference error, private variables
+// console.log(myValue, "myValue"); // reference error, private variables
+
+/////////////////////////////////////////////IIFE/////////////////////////////
+
+const privateCounter = (() => {
+  let count = 0;
+  console.log(`initial value: ${count}`);
+  return () => {
+    count += 1;
+    console.log(count);
+  };
+})();
+
+privateCounter();
+privateCounter();
+privateCounter();
+privateCounter();
