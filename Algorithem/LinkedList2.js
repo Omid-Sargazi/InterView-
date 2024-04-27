@@ -1,4 +1,4 @@
-console.log("Linked List");
+console.log("Linked List2");
 
 class Node {
   constructor(value) {
@@ -44,6 +44,26 @@ class LinkedList {
       this.size++;
     }
   }
+  insert(value, index) {
+    if (index < 0 || index > this.size) {
+      return;
+    }
+    if (index === 0) {
+      this.prepend(value);
+    }
+    // if (0 < index < this.size) {
+    else {
+      let node = new Node(value);
+      let pointer = this.head;
+      for (let i = 0; i < index - 1; i++) {
+        pointer = pointer.next;
+      }
+      node.next = pointer.next;
+      pointer.next = node;
+      this.size++;
+    }
+    // }
+  }
 
   printList() {
     if (this.isEmpty()) console.log("List is Empty....");
@@ -71,6 +91,8 @@ list.append(14);
 list.append(15);
 list.append(16);
 list.append(16);
+list.insert(1, 0);
+list.insert(2, 2);
 console.log(list.isEmpty());
 console.log(list.getSize());
 list.printList();
