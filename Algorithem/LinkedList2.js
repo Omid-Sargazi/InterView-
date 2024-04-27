@@ -70,6 +70,7 @@ list.prepend(13);
 list.append(14);
 list.append(15);
 list.append(16);
+list.append(16);
 console.log(list.isEmpty());
 console.log(list.getSize());
 list.printList();
